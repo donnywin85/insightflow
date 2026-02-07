@@ -11,6 +11,15 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "indigo-brand": "#6366f1",
+        "emerald-brand": "#10b981",
+        "rose-brand": "#f43f5e",
+        "amber-brand": "#f59e0b",
+        "sidebar-dark": "#0f172a",
+      },
+      fontFamily: {
+        heading: ["var(--font-heading)", "sans-serif"],
+        body: ["var(--font-body)", "sans-serif"],
       },
     },
   },
